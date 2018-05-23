@@ -11,7 +11,7 @@ while True:
     cv2.imshow('frame', frame)
     cv2.imshow('gray', gray)
     if cv2.waitKey(5) & 0xFF == ord('q'):
-        break
+        break # break out
 
 cap.release()
 out.release()
